@@ -1,0 +1,8 @@
+# First example
+print "Hello, world!"
+
+/*
+Second example
+*/
+string foo = "Hello, world"
+print foo
