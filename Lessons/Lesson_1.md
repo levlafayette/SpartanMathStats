@@ -15,10 +15,26 @@
 
 -- *Slide* --
 ### Part 1: Basics of R
+* R is a high-level language and environment for statistical computing and graphics; an open-source variant of S.
+* R is world's most widely used statistics programming language with its own journal, The R Journal.
+* Language includes input and output, loops, conditionals, recursive functions, data handling, operators for arrays, lists, vectors, and matrices. Lots of tools for data analysis.
+-- *Slide End* --
+
+-- *Slide* --
+### Part 1: R on Spartan
+* Interactive use of R should be conducted by launching an interactive job. R scripts can be automated through the job submission system. 
+* There are several versions of R available using the old and new build systems and various extensions. Options for system-wide install or local install.
+-- *Slide End* --
+
+-- *Slide* --
+### Part 1: An Oveview of R
+* The help function is `help()`. To quit R use `q()`. R is case sensitive. Comments are prefixed with `#`. Multiple commands can be separated with `;`.
+* The assignment variable is `<-`; combine with the `$Object <- function c($val1,$val2,$val3)`. Examine contents of workspace with ls()l Functions may include the object variable (e.g., `mean(Votes)`). 
 -- *Slide End* --
 
 -- *Slide* --
 ### Part 1: Input and Output
+* 
 -- *Slide End* --
 
 -- *Slide* --
