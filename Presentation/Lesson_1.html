@@ -46,10 +46,9 @@
 <!-- Slides go here -->
 <section data-markdown><script type="text/template">
 ### Part 0: Goals for today
-* Part 1: HPC Statistical Computation with R
-* Part 2: HPC Numerical Computations with Octave
-* Part 3: HPC Symbolic Computation with Maxima
-* Part 4: Other Tools; Gretl, Julia, UNUMS
+* Part 1: Statistical Computation with R
+* Part 2: Numerical Computations with Octave
+* Part 3: Other Tools; Maxima, Gretl, Julia, UNUMS
 </script></section>
 <section data-markdown><script type="text/template">
 ### Part 0: Slide Repository
@@ -67,18 +66,24 @@
 ### Part 1: R on Spartan
 * Interactive use of R should be conducted by launching an interactive job. R scripts can be automated through the job submission system. 
 * There are several versions of R available using the old and new build systems and various extensions. Options for system-wide install or local install.
+* Good resources (including extended version of this workshop outline) in `/usr/local/common/R`
 </script></section>
 <section data-markdown><script type="text/template">
-### Part 1: An Oveview of R
-* The help function is `help()`. To quit R use `q()`. R is case sensitive. Comments are prefixed with `#`. Multiple commands can be separated with `;`.
-* The assignment variable is `<-`; combine with the `$Object <- function c($val1,$val2,$val3)`. Examine contents of workspace with ls()l Functions may include the object variable (e.g., `mean(Votes)`). 
+### Part 1: Datatypes and Objects
+* Main datatypes are logical, numeric, integers, complex, character, and raw. 
+* Unlike most programming languages variables are not declared as some data type. The variables	are assigned to Objects.
+* Major Objects are vectors, lists, matrices, arrays, factors, and data frames. The latter is the most common Object. 
 </script></section>
 <section data-markdown><script type="text/template">
-### Part 1: Input and Output
-* 
+### Part 1: Operators, Conditionals, Loops
+* R has a rich variety of arithmetic, relational, logical, assignment operators and more, with precedence rules.
+* R offers branching through conditional `if-else` statements with nesting (`if-else if-else if-else if` etc). There is also the `ifelse()` function, especially useful on vectors and the `switch()` function.
+* R has looping mechanism through `for`, `while`, `repeat` loops with `break` and `next`, and `repeat` options.
 </script></section>
 <section data-markdown><script type="text/template">
-### Part 1: Data Structures and Transformations
+### Part 1: Functions
+* Functions are used to break up code into modular components. They are declared by reserved word `function` and can have formal, actual, and named arguments.
+
 </script></section>
 <section data-markdown><script type="text/template">
 ### Part 1: Probability
