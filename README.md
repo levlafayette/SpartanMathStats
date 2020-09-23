@@ -1,5 +1,6 @@
 # SpartanMathStats
-Mathematical and statistical applications on the Spartan HPC (R, Octave, Mathematica, Gretl), and their integration into Slurm scripts.
+Mathematical and statistical applications on the Spartan HPC (mainly R and Octave, but also Mathematica, Gretl, Julia), and their 
+integration into Slurm scripts.
 
 ## Git
 
